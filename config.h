@@ -49,7 +49,7 @@ static const Layout layouts[] = {
 
 static const char *dmenucmd[] = { "dmenu_run", "-fn", font, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };
 static const char *termcmd[]  = { "terminator", NULL };
-static const char *chromecmd[]  = { "chromium-dev", NULL };
+static const char *chromecmd[]  = { "chromium", NULL };
 static const char *searchcmd[]  = { "search", NULL };
 
 static Key keys[] = {
